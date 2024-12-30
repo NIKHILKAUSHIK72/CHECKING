@@ -24,8 +24,11 @@ const data =[
     { date: "2024-12-10", totalOrders: 600, totalQty: 900, totalDispatch: 1300, totalProductionPress1: 1800, totalProductionPress2: 2000 },
     { date: "2024-12-11", totalOrders: 700, totalQty: 1000, totalDispatch: 1400, totalProductionPress1: 1900, totalProductionPress2: 2100 },
     { date: "2024-12-12", totalOrders: 800, totalQty: 1500, totalDispatch: 1600, totalProductionPress1: 2000, totalProductionPress2: 3000 },
+
     { date: "2024-12-13",totalOrders:900,totalQty:1600,totalDispatch:1700, totalProductionPress1:2500,totalProductionPress2:2600},
-];
+   {date : "2024-12-14",totalOrders:1000,totalQty:1700,totalDispatch:1800,totalProductionPress1:2600,totalProductionPress2:2700}
+    ];
+
 
 
     
