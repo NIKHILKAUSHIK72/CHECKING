@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMBA LAMINATES</title>
+    <link rel="stylesheet" href="AMBA.css">
+</head>
+<body>
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h2>AMBA LAMINATES</h2>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">AMBA SPREADSHEET'S</button>
+            
+                <div class="dropdown-content">
+                    <a href="https://docs.google.com/spreadsheets/d/1YP9Y9wTyrJZ3Fn-3oSvgMsEPMvKMeqfs4LDAM0A9cXE/edit?usp=sharing">order to delivery</a>
+                    <a href="#">(2-12-24)</a>
+                    <a href="#">(3-12-24)</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1V_97CNeyZCySI7obEGEdvWvIKB-_oIGcQe9vP_RUxcc/edit?usp=sharing">(4-12-24)</a>
+                    <a href="https://docs.google.com/spreadsheets/d/187LxJ8t3Q9Hc43bKlZcqW4thonCSexyoLyPSx4nCTSc/edit?usp=sharing">(5-12-24)</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1iZuXM8hERZgNokoVjkFrmyvSQ3oDv95sH1bWG-kSDZE/edit?usp=sharing">(6-12-24)</a>
+                    <a href="#">(7-12-24)</a>
+                    <a href="#">(8-12-24)</a>
+                    <a href="#">(9-12-24)</a>
+                    <a href="#">(10-12-24)</a>
+                    <a href="#">(11-12-24)</a>
+                    <a href="#">(12-12-24)</a>
+                    <a href="#">(13-12-24)</a>       
+                    <a href="#">(14-12-24)</a>
+                    <a href="#">(15-12-24)</a>
+                    <a href="#">(16-12-24)</a>
+                    <a href="#">(17-12-24)</a>
+                    <a href="#">(18-12-24)</a>
+                    <a href="#">(19-12-24)</a>
+                    <a href="#">(20-12-24)</a>
+                    <a href="#">(21-12-24)</a>
+                    <a href="#">(22-12-24)</a>
+                    <a href="#">(23-12-24)</a>
+                    <a href="#">(24-12-24)</a>
+                    <a href="#">(25-12-24)</a>
+                    <a href="#">(26-12-24)</a>
+                    <a href="#">(27-12-24)</a>
+                    <a href="#">(28-12-24)</a>
+                    <a href="#">(29-12-24)</a>
+                    <a href="#">(30-12-24)</a>
+                    <a href="#">(31-12-24)</a>
+                    <a href="#">(1-1-25)</a>
+                    <a href="#">(2-1-25)</a>
+                    <a href="#">(3-1-25)</a>
+                    <a href="#">(4-1-25)</a>
+                    <a href="#">(5-12-25)</a>
+                    <a href="#">(6-12-25)</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <header>
+            <h1>AMBA LAMINATES</h1>
+        </header>
+
+        <div class="container">
+            <div class="date-filter">
+              
+                <label for="start-date">Start Date: </label>
+                <input type="date" id="start-date" name="start-date">
+                
+                
+                <label for="end-date">End Date: </label>
+                <input type="date" id="end-date" name="end-date">
+                
+               
+                <label for="single-date">Single Date: </label>
+                <input type="date" id="single-date" name="single-date">
+                
+                
+                <button onclick="filterData()">Show Data</button>
+            </div>
+
+            
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Total Orders</h3>
+                    <p id="total-orders">0</p>
+                </div>
+                <div class="card">
+                    <h3>Total Quantity Orders</h3>
+                    <p id="total-qty">0</p>
+                </div>
+                <div class="card">
+                    <h3>Total Dispatch</h3>
+                    <p id="total-dispatch">0</p>
+                </div>
+                <div class="card">
+                    <h3>Total Production (Press 1)</h3>
+                    <p id="total-production-press1">0</p>
+                </div>
+                <div class="card">
+                    <h3>Total Production (Press 2)</h3>
+                    <p id="total-production-press2">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="AMBA.js"></script>
+</body>
+</html>
