@@ -27,6 +27,10 @@ const data =[
 
     { date: "2024-12-13",totalOrders:900,totalQty:1600,totalDispatch:1700, totalProductionPress1:2500,totalProductionPress2:2600},
    {date : "2024-12-14",totalOrders:1000,totalQty:1700,totalDispatch:1800,totalProductionPress1:2600,totalProductionPress2:2700},
+    {date : "2024-12-15",totalOrders:1100,totalQty:1750,totalDispatch:1800,totalProductionPress1:2600,totalProductionPress2:2700}
+];
+
+    
     ];
 
 
