@@ -11,26 +11,7 @@ dropdownButtons.forEach(button => {
 
 
 
-const data =[
-    { date: "2024-12-01", totalOrders: 200, totalQty: 1500, totalDispatch: 1200, totalProductionPress1: 800, totalProductionPress2: 700 },
-    { date: "2024-12-02", totalOrders: 120, totalQty: 1800, totalDispatch: 1600, totalProductionPress1: 1000, totalProductionPress2: 800 },
-    { date: "2024-12-03", totalOrders: 150, totalQty: 2200, totalDispatch: 2000, totalProductionPress1: 1200, totalProductionPress2: 1000 },
-    { date: "2024-12-04", totalOrders: 400, totalQty: 3500, totalDispatch: 250, totalProductionPress1: 2200, totalProductionPress2: 1000 },
-    { date: "2024-12-05", totalOrders: 100, totalQty: 2500, totalDispatch: 450, totalProductionPress1: 2000, totalProductionPress2: 200 },
-    { date: "2024-12-06", totalOrders: 400, totalQty: 3500, totalDispatch: 500, totalProductionPress1: 2200, totalProductionPress2: 1000 },
-    { date: "2024-12-07", totalOrders: 200, totalQty: 2500, totalDispatch: 1000, totalProductionPress1: 1500, totalProductionPress2: 800 },
-    { date: "2024-12-08", totalOrders: 200, totalQty: 2500, totalDispatch: 1000, totalProductionPress1: 1500, totalProductionPress2: 800 },
-    { date: "2024-12-09", totalOrders: 500, totalQty: 800, totalDispatch: 1200, totalProductionPress1: 1700, totalProductionPress2: 900 },
-    { date: "2024-12-10", totalOrders: 600, totalQty: 900, totalDispatch: 1300, totalProductionPress1: 1800, totalProductionPress2: 2000 },
-    { date: "2024-12-11", totalOrders: 700, totalQty: 1000, totalDispatch: 1400, totalProductionPress1: 1900, totalProductionPress2: 2100 },
-    { date: "2024-12-12", totalOrders: 800, totalQty: 1500, totalDispatch: 1600, totalProductionPress1: 2000, totalProductionPress2: 3000 },
-
-    { date: "2024-12-13",totalOrders:900,totalQty:1600,totalDispatch:1700, totalProductionPress1:2500,totalProductionPress2:2600},
-   {date : "2024-12-14",totalOrders:1000,totalQty:1700,totalDispatch:1800,totalProductionPress1:2600,totalProductionPress2:2700},
-    {date : "2024-12-15",totalOrders:1100,totalQty:1750,totalDispatch:1800,totalProductionPress1:2600,totalProductionPress2:2700},
-    {date : "2024-12-16",totalOrders:1200,totalQty:1750,totalDispatch:1800,totalProductionPress1:2600,totalProductionPress2:2700},
-    {date : "2025-01-01",totalOrders:1300,totalQty:1850,totalDispatch:1900,totalProductionPress1:2700,totalProductionPress2:2800}
-];
+const sheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTuFQgA8IkJFk4SXreMAjvy0ICZY3f1dYeiDIe5sxhp1EEaL5B-iSRzuzH-GSkBYclPapzOXIGyXKsc/pub?output=csv";
 
     
     
